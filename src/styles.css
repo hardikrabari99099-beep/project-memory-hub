@@ -142,3 +142,22 @@
     color: var(--color-foreground);
   }
 }
+
+/* Prop-firm landing theme (scoped) */
+.theme-funded {
+  --background: oklch(0.16 0.02 260);
+  --foreground: oklch(0.97 0.01 260);
+  --card: oklch(0.21 0.025 260);
+  --card-foreground: oklch(0.97 0.01 260);
+  --primary: oklch(0.82 0.19 150);
+  --primary-foreground: oklch(0.18 0.03 160);
+  --secondary: oklch(0.27 0.03 260);
+  --secondary-foreground: oklch(0.97 0.01 260);
+  --muted: oklch(0.25 0.025 260);
+  --muted-foreground: oklch(0.72 0.02 260);
+  --accent: oklch(0.8 0.15 85);
+  --accent-foreground: oklch(0.18 0.03 80);
+  --border: oklch(0.32 0.03 260);
+  --ring: oklch(0.82 0.19 150);
+  font-family: "Sora", system-ui, sans-serif;
+}
