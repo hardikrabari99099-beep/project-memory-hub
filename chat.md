@@ -13,7 +13,10 @@ Central reference for project context. Read this first in every session, then up
 
 - 2026-11-03: User uploaded message7024.txt: "make a website like indifunded" (no images, Tailwind + Lucide only). Built prop-firm landing page 'FundedEdge' at home page (hero, stats, how it works, plans, FAQ). Brand name, prices, stats are placeholders.
 
+- 2026-11-03: User asked again to make it live; publish requested to https://project-continuity-guide.lovable.app.
+
 ## Errors / Bugs to Fix
+- 2026-11-03: Reported src/pages/NotFound.tsx error; file doesn't exist in this project (not applicable).
 - 2026-11-03: Reported src/main.tsx error; file doesn't exist in this project (not applicable).
 - 2026-11-03: User reported TS errors in src/lib/utils.ts and src/App.tsx. Checked: utils.ts is correct, src/App.tsx does not exist, and the build log shows no errors. These look like old messages from a different project; nothing changed.
 
