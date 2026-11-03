@@ -9,10 +9,10 @@ Central reference for project context. Read this first in every session, then up
 - Fresh template only (blank home page). No features built yet.
 
 ## Requested Changes
-- None yet.
+- 2026-11-03: User asked to publish the site first, then change the design (design details not given yet). Publish attempt was cancelled by the user in the approval card; site is NOT live.
 
 ## Errors / Bugs to Fix
-- None reported yet.
+- 2026-11-03: User reported TS errors in src/lib/utils.ts and src/App.tsx. Checked: utils.ts is correct, src/App.tsx does not exist, and the build log shows no errors. These look like old messages from a different project; nothing changed.
 
 ## Task Status
 - Completed: created chat.md (2026-11-03).
