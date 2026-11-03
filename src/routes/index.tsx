@@ -31,7 +31,7 @@ const steps = [
   { icon: Wallet, title: "Get Funded & Paid", text: "Trade our capital and withdraw up to 90% of profits every 14 days." },
 ];
 
-const faqs = [
+const faqs: [string, string][] = [
   ["What is a funded trading account?", "You trade with our capital after passing an evaluation. You keep most of the profits, we take the risk."],
   ["Which markets can I trade?", "Indian indices, stocks, F&O, forex and commodities on our supported platforms."],
   ["How fast are payouts?", "Payout requests are processed within 24–48 hours, bi-weekly."],
@@ -125,7 +125,7 @@ function Index() {
           ))}
         </div>
         <div className="mt-8 text-center">
-          <Button size="lg">Buy {plans[active].size} Challenge</Button>
+          <Button size="lg">Buy {plans[active]?.size} Challenge</Button>
         </div>
       </section>
 
